@@ -1,0 +1,136 @@
+/* common style for body  */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+/* header design */
+.header-items{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #562EFF;
+    margin-bottom: 33px;
+}
+.logo-side {
+    display: flex;
+    align-items: center;
+}
+.logo-side img{
+    height: 50px;
+    width: 40px;
+    margin-right: 16px;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    margin-right: 35px;
+}
+/* top players style */
+.container{
+    width: 870px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-bottom: 30px;
+    margin: 0 auto; 
+}
+.players-and-blogs-section{
+    display: flex; 
+    flex-direction: column;
+}
+.players-div-title{
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 33px;
+    margin-bottom: 0;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-top: 40px; 
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+    margin-right: 16px;
+}
+.player-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+hr{
+    width: 800px;
+    border: 1px solid #D1D1D1;
+}
+/* top blog style  */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    margin-top: 40px;
+}
+.blog{
+    display: flex;
+}
+.blog img {
+    width: 177px;
+    margin-right: 16px;
+}
+small{
+    color: #9F9F9F;
+}
+a{
+    text-decoration: none;
+    color: #562EFF;
+}
+/* course section  */
+.courses-section{
+    margin-bottom: 30px;
+    padding-top: 30px;
+    display: flex; 
+    justify-content: center;
+    
+}
+.courses{
+    width: 252px;
+    box-shadow: 10px 10px 40px whitesmoke;
+    border-radius: 40px;
+    margin-right: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.courses img{
+    height: 105px;
+    width: 225px;
+}
+h4{
+    margin-bottom: 0;
+}
+h6{
+    margin: 0;
+}
+.courses-rating-and-duration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 0;
+}
+.course-duration{
+    /* width: 95px; */
+    height: 30px
+    margin-right: 20px;
+    padding: 0 10px;
+    color: #FF4A60;
+    background-color: #FEE5DF;
+    border-radius: 15px;
+}
+.fa-clock{
+    margin-right: 5px;
+}
